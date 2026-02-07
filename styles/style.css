@@ -114,3 +114,65 @@ nav .menu a{
 nav button{
     margin-left: 346px;
 }
+
+#card-section .frame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-section .frame h2{
+    margin-top: 40px;
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+#card-section .frame p{
+    line-height: 20px;
+    color: #627382;
+}
+
+#card{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 44px;
+    justify-content: center;
+    padding: 24px;
+    /* width: 100%; */
+    /* max-width: 1360px; */
+    /* width: 322px;
+    height: 300px; */
+}
+
+#card div{
+    flex-direction: column;
+    text-align: center;
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    width: 322px;
+    height: 300px;
+    box-shadow: 0 0 8px 0 #0000001a;
+}
+
+#card img{
+    /* margin: 69.5px 131px 170.5px; */
+    margin-top: 69.5px;
+    padding: 1.5px 2.48px;
+    
+    background-color: #F95555;
+}
+
+#card div h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+#card div p{
+    color: #627382;
+    margin: 16px 24px 69.5px;
+    line-height: 20px;
+}
