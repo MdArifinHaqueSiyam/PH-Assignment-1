@@ -176,3 +176,40 @@ nav button{
     margin: 16px 24px 69.5px;
     line-height: 20px;
 }
+
+#knowledge{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#knowledge .knowledge-text{
+    margin-left: 60px;
+}
+
+#knowledge .solution{
+    line-height: 20px;
+    color: #469165;
+    margin-bottom: 16px;
+}
+
+#knowledge h1{
+    font-size: 48px;
+    color: #001931;
+}
+
+#knowledge .para{
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+#knowledge img{
+    margin-right: 6px;
+}
+
+#knowledge .check{
+    line-height: 20px;
+    margin-bottom: 16px;
+}
